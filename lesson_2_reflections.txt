@@ -2,3 +2,6 @@ What happens when you initialize a repository? Why do you need to do it?
 
 On initialization, git would create necessary setup to track all the default files in the directory.
 This is needed to mark the original or beginining status of the directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By doing git diff --staged and analyzing all the changes w.r.t to last commit.
