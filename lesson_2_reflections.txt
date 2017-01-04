@@ -5,3 +5,7 @@ This is needed to mark the original or beginining status of the directory.
 
 How can you use the staging area to make sure you have one commit per logical change?
 By doing git diff --staged and analyzing all the changes w.r.t to last commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful to continue with the working version and experiment with the new desired feature or business logic. 
+Once branch logic is successful, those changes can be merged back into the master/main branch.
