@@ -12,3 +12,7 @@ Once branch logic is successful, those changes can be merged back into the maste
 
 How do the diagrams help you visualize the branch structure?
 It helps to realise the git checked-in version flow w.r.t to all forked branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging of two branches would bring the result of both sets of changes incorporated. We represent it in diagram so that we could 
+keep track of the parent branches that have resulted in this merge.
