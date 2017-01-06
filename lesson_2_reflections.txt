@@ -16,3 +16,7 @@ It helps to realise the git checked-in version flow w.r.t to all forked branches
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging of two branches would bring the result of both sets of changes incorporated. We represent it in diagram so that we could 
 keep track of the parent branches that have resulted in this merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto merging would help to merge all possible non-conflicting different set of data together leaving only the conflicted data set 
+to user. This would make easier for users as they would be left to intelligently judge only the conflicted set of data.
