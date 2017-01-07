@@ -1,29 +1,29 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
-
+   You would want to use a remote repository in that case when you want to develop/share software or something  by collaborating with multiple people from different locations, 
+   
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
-
+    Your local repository might be in intermediate state of work and you wouldn't want to get into messy state by syncing with the remote repository unless you are ready to do.
+    
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forking is like creating a new branch from existing branch. Cloning is like creating a mirror image, copying all pieces of data including the meta-data from the remote repository. Brances are for to carry out experiment on a stable version of code to add new features or to modify existing functionality for some reasons like re-factoring. Once experiment is successful with respect to complete functionality, branched code can be merged back to main branch. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    So it will be easy to keep updated the local repository as early as possible by merging with the remote copy.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    SVN or similar software like Clearcase. I think GitHub is a more evolved concept over cloud storage for effective and fast collaboration with multiple people across the world. I am not aware of SVN having a counterpart like GitHub for effective hosting, caching contributions of all account holders and allowing selective contributions to be merged into the main repository for access to share-holders. Also GitHub provides features to directly add to repository from the primary account itself that would get accessible to the share-holders on their demand.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Answered in one of the above questions.
