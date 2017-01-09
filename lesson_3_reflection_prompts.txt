@@ -26,8 +26,14 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    SVN or similar software like Clearcase. I think GitHub is a more evolved concept over cloud storage for effective and fast collaboration with multiple people across the world. I am not aware of SVN having a counterpart like GitHub for effective hosting, caching contributions of all account holders and allowing selective contributions to be merged into the main repository for access to share-holders. Also GitHub provides features to directly add to repository from the primary account itself that would get accessible to the share-holders on their demand.
-
+    SVN or similar software like Clearcase. I think GitHub is a more evolved concept over cloud storage for 
+	effective and fast collaboration with multiple people across the world. In Git, we have a 2 step mechanism to commit to repository
+	which could be helpful in submitting one logical change at a time. Additionally, we have a seperate branch for remote copy in local
+	environment which is different from the local master branch. This would be helpful for syncing the remote code in local repository.
+	In GitHub, users can create new branches, fork from other github account repositories and carry on development to either the
+    forked repository or their own private copy of the repository in their respective accounts.	
+	I am not aware of SVN having a counterpart like GitHub for effective collaborative and sharing mechanism like forking to all different share-holders.
+	
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
