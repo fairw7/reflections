@@ -21,7 +21,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    So it will be easy to keep updated the local repository as early as possible by merging with the remote copy.
+    So it will be easy to merge the state of remote copy with the local changes made by analyzing them.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
