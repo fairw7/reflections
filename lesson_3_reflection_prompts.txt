@@ -37,4 +37,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Answered in one of the above questions.
+    Separate branches are created and modified when there is a requirement to keep the master branch almost stable for
+	all the time and no submitted changes should accidentally break the master code base.
+	
+		Benefits of directly submitting to master branch seems simplified since there is no complex approach of different branch
+	creation and further propogation is involved in every single case. Whereas seperate branching mechanism would minimize the introduction
+	of critical bugs into the mainstream to a larger extent as 2-check mechanism takes places. This ensures the master build
+	is stable for almost all the time.
